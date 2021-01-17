@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
         <title>국내 팬션 특가</title>
 <style>
@@ -25,8 +26,12 @@
 	}
 	
 	article{
-		width:100%; height:350px;
-		background-image: url("https://a.cdn-hotels.com/cos/production197/d1381/04e4f6d0-8675-11e8-bf8f-0242ac11000d.jpg");
+		
+		background-image: url("https://tpc.googlesyndication.com/simgad/15040095788267997080?");
+		background-position :110%;
+		overflow :hidden;
+		position :relative;
+		height : 350px;
 		padding-left: 100px;
 	}
 
@@ -37,11 +42,17 @@
 		padding-left: 100px; padding-bottom: 15px;
 	}
 
-
+	line{
+	
+		background-color: white;
+		float: left;
+	
+	
+	}
 
 	
   	nav > table{
-  				float:left;
+  		float:left;
   	}
   	
   	.table:td{
@@ -49,11 +60,31 @@
   		font-size: 90%;
   	
   	}
+  	
+  	
+	fieldset > table{
+	
+			float: left;
+			margin: 0 auto;
+	}  
+	
+	
+	fieldsed:table > td{
+	
+	
+		float: left;
+		overflow: inherit;
+		padding-left: 50px;
+		
+	}
+	
+	
+		
  	
  	header > option {
 
-	border: rgb(0,9,124);
- 	border-style: ridge;
+		border: rgb(0,9,124);
+	 	border-style: ridge;
  	}
  
   	table{
@@ -61,33 +92,55 @@
   		float: right; margin: auto; padding-top: 15px
   	}
   	
+  	
+  	
+  	table{
+  	
+  		 margin: auto; padding-top: 15px
+  		
+  	}
+  	
   	.table{
   	
-  	 margin: auto; padding-top: 15px
+  		 margin: auto; padding-top: 15px
   	
   	}
   
   	.logo{
   	
-  	float:left; 
-  	
-  	position:inherit;
-  	padding-left: 5px; padding-top: 5px; 
-  	padding-bottom:20px;		
-  	margin: auto;
-  	/* 세시간만에 이거찾음 아래 로고 div 씌우고 클라스에 넣는거 어렵네..*/
-  	  	height: 28px;  	
+  		float:left; 
+	  	position:inherit;
+	  	padding-left: 5px; padding-top: 5px; 
+	  	padding-bottom:20px;		
+	  	margin: auto;
+	  	/* 세시간만에 이거찾음 아래 로고 div 씌우고 클라스에 넣는거 어렵네..*/
+	  	height: 28px;  	
   	}
   	
   	.bigchar{
   	  	
-  	font-size: 28px;
+  		font-size: 28px;
   	
-  	}
-  	.smallchar{
-  	font-size:18;
+	}
+	
+	#smallchar{
+	  	font-size: 70%;
+	  	margin: 0 auto;
   	}
   	
+  	
+  	fieldset{
+	  	
+	  	padding-top: 5px;
+	  	float : left;
+	  	background-color: #eae8e0;
+	  	margin-top : 15px;
+	  	
+	  	margin : 0 auto;
+	  	width: 350px;
+		
+  	}
+  	  	
   	h1{
   	
   	font-size: 70%
@@ -95,18 +148,57 @@
   	margin: 0 auto;
   	}
   	
- </style>
+  	
+  	.widget-big{
+  	
+	  	
+	    background-color: #eae8e0;
+	    border-color: #ccc;
+	    box-shadow: 0 0 12px 0 #4e4e4e;
+	    min-width: px !important;
+	    max-width: 800px;
+	    outline: none;
+	    color: #000000;
+		float: left;
+  	}
+  	
+  	searchbox{
+  	
+  	
+  		width: 330px;
+  		float: inherit;
+  		margin: 0 auto;
+  	
+  	}
+  	
+  	main {
+  	
+  	  		margin: 0 auto;
+  	
+  	}
+  	container {
+		 margin-bottom:20px;
+		 padding-bottom:20px
+		
+  	}
+
+	ul:li{
+	
+	overflow: hidden;
+	
+	}  	
+  	
+ 	</style>
  
  </head>
+ 
+ 
  <body>
  <header>
 	<div class="logo">
-	<img src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/brands/hcom/logos/logo_ko_KR.png" width = "50%">	
+	<img src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/brands/hcom/logos/logo_ko_KR.png" style="width:50%">	
 	</div>
  <table>
-	
-	
-
 			<tr>
 				<td>
 					<select>
@@ -141,11 +233,9 @@
 
 </table>
 
-	
 </header>
 	
  <nav>
-	 
 	 	<table>
 	 		<tr>
 	 			<td><a href="#">특가 상품</a></td>
@@ -154,22 +244,77 @@
 	 			<td><a href="#">Hotels.com 호텔스닷컴리워드</a><td>
 	 		</td>
 	 	</table>
-		
 </nav>
 		<article>
-			 <div class="smaillchar"><a href="*">호텔</a>><a href="#"> 특가상품</a> ><a href="#"> 국내 펜션 특가</a><br></div>
-			<div class="bigchar"><h1>국내 펜션 특가</h1></div><br>
-			<div class="bigchar"><h1>지금 예약하세요</h1></div>
-			 		
-				<form>
-
-							<h6>목적지또는 숙박시설을 입력하세요</h6>
-							<input type="text" name="city" >
-						
+			<fieldset>
+				<h1>어디로 떠나고 싶으세요?</h1>
+				<div id="smallchar">전 세계 목적지 및 숙박 시설</div>
+				<div><input type="text" width="380px" placeholder="예: 서울"></div>
+				<div id="smallchar">목적지 또는 숙박 시설을 입력하세요</div>
 				
-			</form>
-			
+					<table>
+						<tr>
+							<td>체크인</td>
+							<td>체크아웃</td>
+						</tr>
+						<tr>
+							<td><input type="date" id="startdate" name="startdate"></td>
+							<td><input type="date" id="enddate" name="enddate"></td>
+						</tr>
+					</table>
+					<table>
+						<tr> 
+							<td>객실</td>
+							<td>성인</td>
+							<td>아동</td>
+						</tr>
+						<tr>
+							<td><select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8+</option>
+							</select></td>
+							<td>
+								<select>
+									<option>1</option>
+									<option>2</option>
+								</select>	
+							</td>			
+						
+							<td>
+								<select>
+									<option>1</option>
+									<option>2</option>
+								</select>	
+							</td>			
+					
+						</tr>
+				
+					</table>	
+					
+			</fieldset>
+		
 		</article>
+		
+		
+		
+				<div><h2>Hotels.com에서 예약해야 하는이유</h2></div>
+			<ul>
+				<li><img src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/common/pages/lpa/homepage/calendar-tick.svg" alt=""/>
+				<span class="trust-msg-title">
+				무료 취소</span><p class="fs-bee trust-msg-subtitle">대부분의 호텔*</p></div></li>
+				
+				<li><img src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/common/pages/lpa/homepage/price-guarantee.svg" width="45px;" class="" alt="">
+				</li>
+			
+				<li><img src="https://a.cdn-hotels.com/uswest2/da/assets/s/63.0.10610/images/common/pages/lpa/homepage/rewards.svg" width="45px;" class="" alt="">
+				</li>
+			</ul>
 </body>
 
 </html>
