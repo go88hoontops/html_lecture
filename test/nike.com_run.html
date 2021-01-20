@@ -92,7 +92,7 @@
 			font-size:20px;
 			font :bold;
 			top: 15px;
-			left: 700px;
+			left: 880px;
 	
 
 	}
@@ -101,7 +101,7 @@
 			font-size:20px;
 			font :bold;
 			top: 15px;
-			left: 750px;
+			left: 980px;
 	
 
 	}
@@ -149,14 +149,31 @@
 		position: absolute;
 		top:280px;
 		left:280px;
-		background-color: blue;
-		
-		width: 1000px;
-		height: 10000px;
+		overflow :hidden;
+		width: 1500px;
+		height: 1800px;
 		
 		
 		}
 
+		main>ul{
+			position: absolute;
+			left:250px;
+			margin: 0 auto;
+			list-style:none;
+		}
+		main>ul>li{
+			font-size:13px;
+			margin:10px;
+			float: left;
+			list-style: "\2225";
+		}
+		
+		main>table{
+			position: absolute;
+			top:80px;
+		}
+		
 
 	</style>
 
@@ -197,6 +214,7 @@
 		<div class="nav1"><a href ="#" style="text-decoration: none;"> Men / 신발</a></div>
 		<h1> Men's Running</h1>
 		<div class="nav2"><input type="submit" name="filter">Filter </div>
+		<div class="nav3"><input type="submit" name="filter">신상품순 </div>
 		
 	</nav>
 	<aside>
@@ -228,7 +246,46 @@
 
 	</aside>
 	
-	<main>ss</main>
+	<main>
+			<ul>
+				<li>전체보기</li>
+				<li>줌</li>
+				<li>리액트</li>
+				<li>프리</li>
+				<li>조이라이드</li>
+				<li>러닝화가이드</li>
+			</ul>	
+			
+			<table style="width:100%" border="1">
+				<tr>
+					<td height="400px" >2<td>
+					<td>3<td>
+					<td>4<td>
+				</tr>
+			
+				<tr>
+					<td height="400px" >2<td>
+					<td><td>
+					<td>999<td>
+				</tr>
+			
+				<tr>
+					<td height="400px" >2<td>
+					<td><td>
+					<td>2<td>
+				</tr>
+			
+				<tr>
+					<td height="400px" >2<td>
+					<td>1<td>
+					<td><td>
+				</tr>
+			
+			
+			
+			</table>
+			
+	</main>
 
 
 </body>
